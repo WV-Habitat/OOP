@@ -1,0 +1,58 @@
+/*-- scss:defaults --*/
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+$work-sans: 'Work Sans', sans-serif;
+$font-family-sans-serif: $work-sans !default;
+$presentation-font-size-root: 36px !default;
+
+// Colors
+$yellow: rgb(255, 200, 0);
+$darkyellow: rgb(67, 64, 49);
+$black: rgb(44, 50, 63);
+$pastel: rgb(250, 242, 216);
+$green: rgb(11, 69, 73);
+$darkgreen: rgb(35, 55, 59);
+$body-color: $pastel !default;
+$presentation-heading-font-weight: bold !default;
+$body-bg: $darkyellow !default;
+$link-color: $yellow !default;
+$code-block-bg: $darkgreen;
+$code-color: $yellow;
+
+/*-- scss:rules --*/
+.reveal h1 {
+  color: $yellow;
+  font-family: $work-sans;
+  font-size: 115px;
+  text-shadow: 4px 5px 4px rgba($yellow, 0.4) !important;
+}
+
+.quarto-title-authors {
+  font-size: 32px;
+}
+
+.reveal h2 {
+  color: $pastel;
+  font-family: $work-sans;
+  font-size: 60px;
+  margin-bottom: 45px;
+  text-shadow: 3px 4px 3px rgba($yellow, 0.3) !important
+}
+
+.reveal h3 {
+  color: $pastel;
+  font-family: $work-sans;
+}
+
+.reveal .slide-logo {
+  max-height: 4rem !important;
+}
+
+.right {
+  text-align: right !important;
+}
+
+.center {
+  text-align: center !important;
+}
